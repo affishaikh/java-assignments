@@ -17,4 +17,14 @@ public class Circle {
     public double getArea() {
         return Math.PI * radius * radius;
     }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+        return;
+    }
+
+    public static void main(String[] args) {
+        Circle c1 = new Circle(2.0);
+        System.out.println(c1.getRadius());
+    }
 }

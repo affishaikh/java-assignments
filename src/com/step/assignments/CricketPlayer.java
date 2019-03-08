@@ -14,7 +14,6 @@ public class CricketPlayer extends Player {
         return role;
     }
 
-
     public static void print() {
         System.out.println("This is static method of CricketPlayer");
     }
@@ -22,6 +21,6 @@ public class CricketPlayer extends Player {
     public static void main(String[] args) {
         CricketPlayer cp = new CricketPlayer("Aftab", "Batsman");
         System.out.println(cp.getName());
-        CricketPlayer.print();
+        print();
     }
 }
